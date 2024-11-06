@@ -1,0 +1,72 @@
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #89fffd, #ff9af7);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Kontainer untuk formulir */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Judul */
+h1, h2 {
+    color: #ff6f61;
+    text-align: center;
+}
+
+/* Label dan input */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/* Radio & checkbox styling */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+}
+
+/* Tombol submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e55b50;
+}

@@ -1,0 +1,69 @@
+/* Gaya dasar untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: #333;
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Gaya untuk judul utama */
+h1 {
+    color: #0072ff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00c6ff;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Gaya untuk daftar */
+ul, ol {
+    text-align: left;
+    margin: 20px auto;
+    padding-left: 20px;
+    max-width: 500px;
+    color: #333;
+}
+
+/* Gaya untuk item dalam daftar */
+li {
+    font-size: 1em;
+    margin: 8px 0;
+}
+
+/* Gaya untuk link */
+a {
+    color: #0072ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
