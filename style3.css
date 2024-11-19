@@ -1,0 +1,36 @@
+/* Gaya dasar untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #333;
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Gaya untuk judul utama */
+h1 {
+    color: #ff7e5f;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk paragraf */
+p {
+    font-size: 1.2em;
+    color: #666;
+}

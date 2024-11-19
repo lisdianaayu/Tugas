@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Singkat - Lisdiana Ayu</title>
+    <style>
+        /* Gaya umum */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto; 
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #ff6f61;
+            font-size: 2em;
+        }
+        h2 {
+            color: #374785;
+            border-bottom: 2px solid #ff6f61;
+            padding-bottom: 5px;
+        }
+
+        /* Gaya untuk Konten */
+        .card {
+            background-color: #fafafa;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info, .media, .biodata {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 5px solid #374785;
+        }
+
+        /* Tabel Biodata */
+        .biodata table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background-color: #f0f8ff;
+        }
+        .biodata th, .biodata td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .biodata th {
+            background-color: #374785;
+            color: #ffffff;
+        }
+        .biodata td {
+            color: #374785;
+        }
+
+        /* Gaya Media */
+        .media-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        img {
+            display: block;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 300px;
+            border: 3px solid #f0a8fa;
+        }
+        audio, video {
+            width: 100%;
+            max-width: 400px;
+            border: 2px solid #ff6f61;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #c2a4ff;
+            color: white;
+            border-top: 3px solid #ff6f61;
+            margin-top: 20px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        /* Hover effects */
+        .card:hover {
+            background-color: #f7f7f7;
+        }
+        a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Perkenalan Singkat</h1>
+    </header>
+
+    <section class="contact-info card">
+        <h2>Kontak</h2>
+        <p><strong>Email:</strong> ayulisdiana92@gmail.com</p>
+        <p><strong>Telepon:</strong> 083876999113</p>
+    </section>
+
+    <section class="media card">
+        <h2>Media</h2>
+        <div class="media-content">
+            <div>
+                <h3>Foto</h3>
+                <img src="foto lisdi.jpg" alt="Foto Lisdiana Ayu">
+            </div>
+
+            <div>
+                <h3>Pesan Suara</h3>
+                <audio controls>
+                    <source src="labulabu.mp3" type="audio/mpeg">
+                    Browser Anda tidak mendukung elemen audio.
+                </audio>
+            </div>
+
+            <div>
+                <h3>Video</h3>
+                <video controls>
+                    <source src="video lisdi.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung elemen video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section class="biodata card">
+        <h2>Biodata</h2>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td>Lisdiana Ayu</td>
+            </tr>
+            <tr>
+                <th>Kelas</th>
+                <td>XI RPL 1</td>
+            </tr>
+            <tr>
+                <th>Tanggal Lahir</th>
+                <td>13 Mei 2008</td>
+            </tr>
+            <tr>
+                <th>Usia</th>
+                <td>16 tahun</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Pasir Jengkol</td>
+            </tr>
+        </table>
+    </section>
+</div>
+
+<footer>
+    &copy; 2023 Lisdiana Ayu - Semua Hak Dilindungi
+</footer>
+
+</body>
+</html>
+
